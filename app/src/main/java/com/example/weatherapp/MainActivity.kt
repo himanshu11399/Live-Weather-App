@@ -28,7 +28,7 @@ import java.util.Locale
 //{"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":312.12,"feels_like":311.64,"temp_min":312.12,"temp_max":312.12,"pressure":995,"humidity":22,"sea_level":995,"grnd_level":971},"visibility":10000,"wind":{"speed":4.43,"deg":145,"gust":5.15},"clouds":{"all":50},"dt":1748692347,"sys":{"country":"IN","sunrise":1748649238,"sunset":1748699039},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}
 class MainActivity : AppCompatActivity() {
 
-    val key = "02dac1a293be66865e85d4d84e875730"
+    val key = "Your Api Key"
     private val binding: ActivityMainBinding by lazy{
         ActivityMainBinding.inflate(layoutInflater)
     }
